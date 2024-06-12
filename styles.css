@@ -1,0 +1,188 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/premium-photo/dark-minimalist-metallic-background_863013-208527.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1717718400&semt=ais_user');
+    color: #333;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header img {
+    border-radius: 50%;
+    width: 170px;
+    height: 150px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 0; /* Ensure no margin at the bottom */
+}
+
+hr.divider {
+    border: none;
+    border-top: 2px solid black;
+    margin: 0; /* Remove margin */
+}
+
+.header {
+    background-image: url('https://img.freepik.com/premium-photo/rtx-background-revival-background-adventures-shapes-motion_481747-20380.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1716336000&semt=ais_user');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+    margin: 0; /* Remove margin */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #feb47b;
+}
+
+main {
+    margin-top: 0; /* Remove top margin */
+}
+
+.section {
+    padding: 4em 0;
+    margin: 2em 0;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5em;
+}
+
+.skills-list,
+.projects ul,
+.experience ul,
+.education ul,
+.certifications ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills-list li,
+.projects ul li,
+.experience ul li,
+.education ul li,
+.certifications ul li {
+    background: #ff7e5f;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.skills-list li:hover,
+.projects ul li:hover,
+.experience ul li:hover,
+.education ul li:hover,
+.certifications ul li:hover {
+    background: #feb47b;
+}
+
+.skills-list li {
+    flex: 0 0 30%;
+    background: black;
+    margin: 0.5em 0;
+    padding: 1em;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.skills-list li:hover {
+    transform: scale(1.05);
+    background: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Contact Form Styles */
+#contact-me form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#contact-me label {
+    margin: 1em 0 0.5em 0;
+    font-weight: bold;
+}
+
+#contact-me input,
+#contact-me textarea {
+    padding: 0.5em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+}
+
+#contact-me button {
+    margin-top: 1em;
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    background: #ff7e5f;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact-me button:hover {
+    background: #feb47b;
+}
